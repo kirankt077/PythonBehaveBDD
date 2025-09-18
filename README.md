@@ -21,6 +21,7 @@ What is behave?
 > a steps directory with python step implementation for the scenarios.
 
 BDD Scenarios and Features Files in Gherkin
+Given,When,Then this are Gherkin keywords
 
 Scenario: [Title/short discription]
     Given [A precondition]
@@ -41,3 +42,5 @@ Scenario: Login to OrangeHRM site
     And Enter username and password
     And click on Login button
     Then User must be successfully login to home page
+
+    
