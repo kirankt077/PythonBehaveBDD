@@ -24,9 +24,9 @@ BDD Scenarios and Features Files in Gherkin
 Given,When,Then this are Gherkin keywords
 
 Scenario: [Title/short discription]
-    Given [A precondition]
-     When [Some evenr]
-     Then [Some outcome]
+    > Given [A precondition]
+    > When [Some evenr]
+    > Then [Some outcome]
 
 Example - 
 Feature: OrangeHRM Login
