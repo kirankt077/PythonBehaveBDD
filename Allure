@@ -1,0 +1,7 @@
+# Allure Reporting in Pytest
+
+install allure-behave
+
+command to run 
+> behave -f allure_behave.formatter:AllureFormatter -o reports/ features/
+> allure server reports/
