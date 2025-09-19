@@ -2,6 +2,8 @@
 
 install allure-behave
 
-command to run 
+To execute and generate Allure report in json format
 > behave -f allure_behave.formatter:AllureFormatter -o reports/ features/
+
+Then to gererate HTML fil report run below command
 > allure server reports/
